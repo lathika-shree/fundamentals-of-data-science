@@ -1,6 +1,6 @@
 # Fundamentals of Data Science Lab - Programs
 
-This repository contains the lab programs in the order of the CS23334 Fundamentals of Data Science Lab manual.
+This repository contains the lab programs in the order of the Fundamentals of Data Science Lab manual.
 
 ## Experiment order
 
