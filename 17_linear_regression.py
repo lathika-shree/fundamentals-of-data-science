@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Example Salary_data because the CSV is not included in the manual.
 years_experience = np.array([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5]).reshape(-1, 1)
 salary = np.array([30000, 34000, 38000, 42000, 45000, 49000, 53000, 57000, 60000, 64000, 68000, 72000])
 X_train, X_test, y_train, y_test = train_test_split(years_experience, salary, test_size=0.2, random_state=42)
