@@ -1,8 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# A small example dataset is embedded because diabetes.csv is not supplied with the manual.
-# Replace this DataFrame with pd.read_csv("diabetes.csv") if you have the original dataset.
 data = {
     "Pregnancies": [1, 4, 0, 3, 2, 5, 1, 6, 2, 0],
     "Glucose": [89, 120, 95, 150, 110, 165, 105, 180, 130, 98],
