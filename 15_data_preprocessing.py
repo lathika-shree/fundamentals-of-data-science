@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Missing entries and categories are included to demonstrate common preprocessing steps.
 df = pd.DataFrame({
     "Country": ["France", "Spain", "Germany", "Spain", "Germany", "France", "Spain", "France", None, "France"],
     "Age": [44, 27, 30, 38, 40, 35, None, 48, 50, 37],
