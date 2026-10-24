@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-# Synthetic customer data keeps the experiment runnable without Mall_Customers.csv.
 np.random.seed(21)
 cluster1 = np.column_stack((np.random.normal(25, 4, 60), np.random.normal(25, 8, 60)))
 cluster2 = np.column_stack((np.random.normal(55, 7, 70), np.random.normal(70, 8, 70)))
