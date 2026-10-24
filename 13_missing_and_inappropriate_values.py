@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 
-# Example hotel dataset because Hotel_Dataset.csv was not included with the manual.
 data = {
     "CustomerID": [1, 2, 3, 4, 4, -6, 7, 8],
     "Age_Group": ["20-25", "25-30", "30-35", "35+", "35+", "25-30", "20-25", "30-35"],
