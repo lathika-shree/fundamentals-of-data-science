@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
-# Example matches the Country, Age, Salary and Purchased columns in the manual.
 df = pd.DataFrame({
     "Country": ["France", "Spain", "Germany", "Spain", "Germany", "France", "Spain", "France", None, "France"],
     "Age": [44, 27, 30, 38, 40, 35, None, 48, 50, 37],
