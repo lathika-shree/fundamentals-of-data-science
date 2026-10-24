@@ -5,7 +5,6 @@ from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-# Synthetic example with the same idea as Social_Network_Ads.csv: age and salary predict purchase.
 np.random.seed(12)
 count = 400
 age = np.random.randint(18, 61, count)
